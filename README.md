@@ -28,3 +28,5 @@ npx playwright test navigation.spec.ts --project=mobile-chrome
 - `pages/` : page objects
 - `tests/` : smoke, navigation, link health and known-bug tests
 - `playwright.config.ts` : desktop browsers plus a Pixel 7 phone project
+
+ **Phone layout, footer links:** in CI (Pixel 7 emulation on Linux), the "Fly Comfort Travel" footer heading covers the center of the "Terms & Conditions" link, so Playwright refuses to click it. The footer link column is very narrow there. Not yet confirmed whether real visitors are affected. The phone-layout test for this link is marked `fixme` in `tests/navigation.spec.ts`.
