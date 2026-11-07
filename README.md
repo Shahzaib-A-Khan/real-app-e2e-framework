@@ -1,4 +1,5 @@
 # real-app-e2e-framework
+![Playwright Tests](https://github.com/Shahzaib-A-Khan/real-app-e2e-framework/actions/workflows/playwright.yml/badge.svg)
 Playwright and TypeScript end-to-end tests for a live travel agency website (flycomforttravel.com), built with the Page Object Model. Every check is read-only: no forms are submitted and no accounts are used.
 
 ## What's covered
